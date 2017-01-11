@@ -34,10 +34,11 @@
 										</c:foreach>
                                     </select>
                                 </div>
+                               
                             </div>
 						</div>
-						</div>
-
-
+						<form  runat="server"><div> Start Date: <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                            
+                             End Date: <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar></div></form>
 
 </asp:Content>
