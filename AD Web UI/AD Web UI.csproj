@@ -79,19 +79,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="dashboard.aspx" />
+    <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
-    <Content Include="MaintainInventoryInfo.aspx" />
+    <Content Include="store\MaintainInventoryInfo.aspx" />
     <Content Include="store\newStockCard.aspx" />
-    <Content Include="Stockcard.aspx" />
+    <Content Include="store\Stockcard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dashboard.aspx.cs">
+    <Compile Include="store\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="dashboard.aspx.designer.cs">
+    <Compile Include="store\dashboard.aspx.designer.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
@@ -109,11 +109,11 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="MaintainInventoryInfo.aspx.cs">
+    <Compile Include="store\MaintainInventoryInfo.aspx.cs">
       <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MaintainInventoryInfo.aspx.designer.cs">
+    <Compile Include="store\MaintainInventoryInfo.aspx.designer.cs">
       <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\newStockCard.aspx.cs">
@@ -123,11 +123,11 @@
     <Compile Include="store\newStockCard.aspx.designer.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Stockcard.aspx.cs">
+    <Compile Include="store\Stockcard.aspx.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Stockcard.aspx.designer.cs">
+    <Compile Include="store\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
     </Compile>
     <Compile Include="deptemp.aspx.cs">
