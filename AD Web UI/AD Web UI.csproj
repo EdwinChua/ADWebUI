@@ -82,6 +82,7 @@
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
     <Content Include="store\WebForm1.aspx" />
+    <Content Include="text.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
