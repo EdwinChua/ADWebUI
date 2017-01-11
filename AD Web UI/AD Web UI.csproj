@@ -66,11 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ApproveRejectRequisition.aspx" />
-    <Content Include="DelegateRole.aspx" />
     <Content Include="packages.config" />
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
+    <Content Include="deptemp.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,25 +83,10 @@
     <Content Include="store\MaintainInventoryInfo.aspx" />
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
-    <Content Include="store\ViewConfirmDisbursement.aspx" />
-    <Content Include="text.txt" />
+    <Content Include="store\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApproveRejectRequisition.aspx.cs">
-      <DependentUpon>ApproveRejectRequisition.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ApproveRejectRequisition.aspx.designer.cs">
-      <DependentUpon>ApproveRejectRequisition.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DelegateRole.aspx.cs">
-      <DependentUpon>DelegateRole.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DelegateRole.aspx.designer.cs">
-      <DependentUpon>DelegateRole.aspx</DependentUpon>
-    </Compile>
     <Compile Include="store\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,12 +130,19 @@
     <Compile Include="store\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewConfirmDisbursement.aspx.cs">
-      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
+    <Compile Include="store\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewConfirmDisbursement.aspx.designer.cs">
-      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
+    <Compile Include="store\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deptemp.aspx.cs">
+      <DependentUpon>deptemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deptemp.aspx.designer.cs">
+      <DependentUpon>deptemp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
