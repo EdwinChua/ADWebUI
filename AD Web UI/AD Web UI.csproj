@@ -70,6 +70,7 @@
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
     <Content Include="deptemp.aspx" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="deptemp.aspx.designer.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
