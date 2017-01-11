@@ -7,9 +7,34 @@
     <title></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- For dropdown select -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/css/bootstrap-select.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.1/js/bootstrap-select.min.js"></script>
+
+
+
+    <!--  additional custom styles -->
+    <link rel="stylesheet"
+        href="${pageContext.request.contextPath}/resources/mystyle.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="${pageContext.request.contextPath}/resources/dashboard.css"
+        rel="stylesheet">
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */
         .navbar {
@@ -30,10 +55,25 @@
         }
 
         /* Set black background color, white text and some padding */
+        /* Sticky footer styles
+-------------------------------------------------- */
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
         footer {
-            background-color: #555;
-            color: white;
-            padding: 15px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 100px;
+            background-color: #f5f5f5;
         }
 
         /* On small screens, set height to 'auto' for sidenav and grid */
@@ -53,7 +93,7 @@
 </head>
 <body>
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+        <div class="container-fluid" style="height: 100%">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -78,32 +118,50 @@
     <div>
     </div>
 
-    <div class="container-fluid text-center">
-        <div class="row content">
-            <div class="col-sm-2 sidenav">
-                <p><a href="#">Link</a></p>
-                <p><a href="#">Link</a></p>
-                <p><a href="#">Link</a></p>
+    <div>
+        <br />
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li id="menu1"><a href="#">Menu 1</a></li>
+                    <li id="menu2"><a href="#">Menu 2</a></li>
+                    <li id="menu3" class="active"><a href="#">Menu 3</a></li>
+                </ul>
+
             </div>
-            <div class="col-sm-8 text-left">
-                <h1><asp:ContentPlaceHolder ID="SectionTitle" runat="server">
-                </asp:ContentPlaceHolder></h1>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                </asp:ContentPlaceHolder>
+            <div class="col-sm-9 col-md-10 main">
+                <h1 class="page-header">Dashboard</h1>
+
+                <h2 class="sub-header" id="sectiontitle">
+                    <asp:ContentPlaceHolder ID="SectionTitle" runat="server">
+                    </asp:ContentPlaceHolder>
+                </h2>
+
+                <div id="mainbody" style="width: 100%">
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
             </div>
-            <div class="col-sm-2 sidenav">
-                <div class="well">
-                    <p>ADS</p>
-                </div>
-                <div class="well">
-                    <p>ADS</p>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         </div>
     </div>
 
     <footer class="container-fluid text-center">
-        <p>Some stupid text. Need to push this down.</p>
+        <p>Some stupid text.</p>
     </footer>
 
 </body>
