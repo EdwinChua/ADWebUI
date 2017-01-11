@@ -84,7 +84,7 @@
     <Content Include="store\MaintainInventoryInfo.aspx" />
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
-    <Content Include="store\WebForm1.aspx" />
+    <Content Include="store\ViewConfirmDisbursement.aspx" />
     <Content Include="text.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -146,12 +146,12 @@
     <Compile Include="store\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="store\ViewConfirmDisbursement.aspx.cs">
+      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="store\ViewConfirmDisbursement.aspx.designer.cs">
+      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

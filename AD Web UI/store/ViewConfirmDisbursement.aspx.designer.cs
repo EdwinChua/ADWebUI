@@ -11,7 +11,7 @@ namespace AD_Web_UI.store
 {
 
 
-    public partial class WebForm1
+    public partial class ViewConfirmDisbursement
     {
     }
 }
