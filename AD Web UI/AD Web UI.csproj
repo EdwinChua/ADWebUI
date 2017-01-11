@@ -84,7 +84,6 @@
     <Content Include="store\MaintainInventoryInfo.aspx" />
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
-    <Content Include="store\WebForm1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,13 +129,6 @@
     </Compile>
     <Compile Include="store\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="store\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="store\WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="deptemp.aspx.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
