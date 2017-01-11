@@ -11,7 +11,7 @@ namespace AD_Web_UI
 {
 
 
-    public partial class DelegateRole
+    public partial class WebForm1
     {
     }
 }
