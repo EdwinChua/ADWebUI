@@ -70,6 +70,7 @@
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
     <Content Include="deptemp.aspx" />
+    <Content Include="store\newStockCard.aspx" />
     <Content Include="WebForm2.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -82,7 +83,6 @@
     <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
     <Content Include="store\MaintainInventoryInfo.aspx" />
-    <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
