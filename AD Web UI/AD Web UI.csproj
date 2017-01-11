@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApproveRejectRequisition.aspx" />
+    <Content Include="DelegateRole.aspx" />
     <Content Include="packages.config" />
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
@@ -87,6 +89,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApproveRejectRequisition.aspx.cs">
+      <DependentUpon>ApproveRejectRequisition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApproveRejectRequisition.aspx.designer.cs">
+      <DependentUpon>ApproveRejectRequisition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DelegateRole.aspx.cs">
+      <DependentUpon>DelegateRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DelegateRole.aspx.designer.cs">
+      <DependentUpon>DelegateRole.aspx</DependentUpon>
+    </Compile>
     <Compile Include="store\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
