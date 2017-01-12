@@ -71,7 +71,8 @@
     <Content Include="Site.Master" />
     <Content Include="deptemp.aspx" />
     <Content Include="store\newStockCard.aspx" />
-    <Content Include="store\ViewConfirmDisbursement.aspx" />
+    <Content Include="store\ViewDisbursement.aspx" />
+    <Content Include="store\ViewDisbursementItems.aspx" />
     <Content Include="WebForm2.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -110,6 +111,13 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="store\ViewDisbursementItems.aspx.cs">
+      <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\ViewDisbursementItems.aspx.designer.cs">
+      <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
+    </Compile>
     <Compile Include="store\ViewInventory.aspx.cs">
       <DependentUpon>ViewInventory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -138,12 +146,12 @@
     <Compile Include="deptemp.aspx.designer.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewConfirmDisbursement.aspx.cs">
-      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
+    <Compile Include="store\ViewDisbursement.aspx.cs">
+      <DependentUpon>ViewDisbursement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewConfirmDisbursement.aspx.designer.cs">
-      <DependentUpon>ViewConfirmDisbursement.aspx</DependentUpon>
+    <Compile Include="store\ViewDisbursement.aspx.designer.cs">
+      <DependentUpon>ViewDisbursement.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm2.aspx.cs">
       <DependentUpon>WebForm2.aspx</DependentUpon>
