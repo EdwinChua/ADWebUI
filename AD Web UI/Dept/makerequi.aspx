@@ -5,6 +5,49 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+     <div class="container-fluid">
+	   <div class="row">
+		<div class="col-md-8">
+
+
+            <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#">item option:</a>
+				</div>
+				 
+                 <select id="lecturerId" name="lecturerId"
+                        class="selectpicker show-tick form-control"
+                        data-live-search="true" required multiple>
+                        <optgroup label="pen">
+                        <option data-subtext="Pen">Red Pen</option>
+                        <option data-subtext="Pen">B;ue</option>
+                            </optgroup>
+                        <optgroup label="paper">
+                        <option data-subtext="Location: Medical School (9.30am)">Registrar Department</option>
+                        <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">English Department</option>
+                            </optgroup>
+                    </select>
+
+                   
+				
+
+                     
+
+				
+				
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
@@ -23,7 +66,7 @@
 							<label for="exampleInputPassword1">
 								item option:
 							</label>
-							<input type="text" class="form-control" id="text" />
+							
                             
                     <select id="lecturerId" name="lecturerId"
                         class="selectpicker show-tick form-control"
@@ -48,20 +91,16 @@
 						</div>
 						<div class="form-group">
 							 
+                            <button type="submit" class="btn btn-default">
+							Add items to requistion list>>>
+						</button>
 							<label for="exampleInputFile">
-								Add items to requistion list>>>
+								
 							</label>
 							
 						</div>
-						<div class="checkbox">
-							 
-							<label>
-								<input type="checkbox" /> Check me out
-							</label>
-						</div> 
-						<button type="submit" class="btn btn-default">
-							Submit
-						</button>
+						
+						
 					</form>
 				</div>
 				<div class="col-md-4">
@@ -93,7 +132,11 @@
 					Eget porttitor lorem
 				</li>
 			</ul>
+             <button type="submit" class="btn btn-default">
+							Submit
+						</button>
 		</div>
 	</div>
 </div>
+           
 </asp:Content>
