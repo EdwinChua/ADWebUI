@@ -65,6 +65,7 @@
         body {
             /* Margin bottom by footer height */
             margin-bottom: 60px;
+
         }
 
         footer {
@@ -133,11 +134,11 @@
 
             </div>
             <div class="col-sm-9 col-md-10 main">
-                <h1 class="page-header">Dashboard</h1>
+                <h1 class="page-header"><asp:ContentPlaceHolder ID="SectionTitle" runat="server">
+                    </asp:ContentPlaceHolder></h1>
 
                 <h2 class="sub-header" id="sectiontitle">
-                    <asp:ContentPlaceHolder ID="SectionTitle" runat="server">
-                    </asp:ContentPlaceHolder>
+                    
                 </h2>
 
                 <div id="mainbody" style="width: 100%">
