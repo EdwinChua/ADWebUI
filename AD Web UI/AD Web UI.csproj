@@ -66,13 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="deptemp.aspx" />
+    <Content Include="Dept\deptemp.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
     <Content Include="packages.config" />
-    <Content Include="makerequi.aspx" />
+    <Content Include="Dept\makerequi.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,11 +93,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="deptemp.aspx.cs">
+    <Compile Include="Dept\deptemp.aspx.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="deptemp.aspx.designer.cs">
+    <Compile Include="Dept\deptemp.aspx.designer.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dept\Rep\changeCollection.aspx.cs">
@@ -178,11 +178,11 @@
     <Compile Include="store\ViewRetrievalList.aspx.designer.cs">
       <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="makerequi.aspx.cs">
+    <Compile Include="Dept\makerequi.aspx.cs">
       <DependentUpon>makerequi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="makerequi.aspx.designer.cs">
+    <Compile Include="Dept\makerequi.aspx.designer.cs">
       <DependentUpon>makerequi.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
