@@ -81,9 +81,11 @@
   <ItemGroup>
     <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
-    <Content Include="store\MaintainInventoryInfo.aspx" />
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
+    <Content Include="store\ViewDisbursement.aspx" />
+    <Content Include="store\ViewDisbursementItems.aspx" />
+    <Content Include="store\ViewInventory.aspx" />
     <Content Include="text.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -124,13 +126,6 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="store\MaintainInventoryInfo.aspx.cs">
-      <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="store\MaintainInventoryInfo.aspx.designer.cs">
-      <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
-    </Compile>
     <Compile Include="store\newStockCard.aspx.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -144,6 +139,24 @@
     </Compile>
     <Compile Include="store\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewDisbursement.aspx.cs">
+      <DependentUpon>ViewDisbursement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewDisbursement.aspx.designer.cs">
+      <DependentUpon>ViewDisbursement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewDisbursementItems.aspx.cs">
+      <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewDisbursementItems.aspx.designer.cs">
+      <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewInventory.aspx.cs">
+      <DependentUpon>ViewInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewInventory.aspx.designer.cs">
+      <DependentUpon>ViewInventory.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
