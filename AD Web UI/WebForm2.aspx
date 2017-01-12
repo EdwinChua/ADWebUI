@@ -24,6 +24,20 @@
 								item option:
 							</label>
 							<input type="text" class="form-control" id="text" />
+                            
+                    <select id="lecturerId" name="lecturerId"
+                        class="selectpicker show-tick form-control"
+                        data-live-search="true" required multiple>
+                        <optgroup label="pen">
+                        <option data-subtext="Pen">Red Pen</option>
+                        <option data-subtext="Pen">B;ue</option>
+                            </optgroup>
+                        <optgroup label="paper">
+                        <option data-subtext="Location: Medical School (9.30am)">Registrar Department</option>
+                        <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">English Department</option>
+                            </optgroup>
+                    </select>
+                
 						</div>
                         <div class="form-group">
 							 
