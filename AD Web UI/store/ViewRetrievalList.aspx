@@ -10,12 +10,12 @@
         <form class="form" role="form">
             <div class="form-group">
                 <div class="col-lg-2">
-                    <label for="prepareItemsForInput">
+                    <label for="prepareItemsFor">
                         Prepare items for:
                     </label>
                 </div>
                 <div class="col-lg-6">
-                    <select id="lecturerId" name="lecturerId"
+                    <select id="prepareItemsFor" name="prepareItemsFor"
                         class="selectpicker show-tick form-control"
                         data-live-search="true" required multiple>
                         <option></option>
@@ -33,72 +33,161 @@
             </div>
         </form>
     </div>
-    <div><br /></div>
+    <div>
+        <br />
+    </div>
     <table class="table">
-                    <thead>
-                        <tr>
-                            <th>#
-                            </th>
-                            <th>Product
-                            </th>
-                            <th>Payment Taken
-                            </th>
-                            <th>Status
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1
-                            </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>01/04/2012
-                            </td>
-                            <td>Default
-                            </td>
-                        </tr>
-                        <tr class="active">
-                            <td>1
-                            </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>01/04/2012
-                            </td>
-                            <td>Approved
-                            </td>
-                        </tr>
-                        <tr class="success">
-                            <td>2
-                            </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>02/04/2012
-                            </td>
-                            <td>Declined
-                            </td>
-                        </tr>
-                        <tr class="warning">
-                            <td>3
-                            </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>03/04/2012
-                            </td>
-                            <td>Pending
-                            </td>
-                        </tr>
-                        <tr class="danger">
-                            <td>4
-                            </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>04/04/2012
-                            </td>
-                            <td>Call in to confirm
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <thead>
+            <tr>
+                <th>Bin#
+                </th>
+                <th>Stationery Description
+                </th>
+                <th>Quantity Needed
+                </th>
+                <th>Quantity Retrieved
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1
+                </td>
+                <td>Pencil
+                </td>
+                <td>5
+                </td>
+                <td>
+                    <input type="number" class="form-control" value="5" />
+                </td>
+                <td>
+                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+            </tr>
+            <tr class="active">
+                <td>1
+                </td>
+                <td>Pen, Blue
+                </td>
+                <td>50
+                </td>
+                <td>
+                    <input type="number" class="form-control" value="50" />
+                </td>
+                <td>
+                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+            </tr>
+            <tr class="success">
+                <td>2
+                </td>
+                <td>Staplers
+                </td>
+                <td>50
+                </td>
+                <td>
+                    <input type="number" class="form-control" value="50" />
+                </td>
+                <td>
+                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+            </tr>
+            <tr class="warning">
+                <td>3
+                </td>
+                <td>Ring files
+                </td>
+                <td>8
+                </td>
+                <td>
+                    <input type="number" class="form-control" value="8" />
+                </td>
+                <td>
+                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+            </tr>
+            <tr class="danger">
+                <td>4
+                </td>
+                <td>Paper Clips
+                </td>
+                <td>8
+                </td>
+                <td>
+                    <input type="number" class="form-control" value="8" />
+                </td>
+                <td>
+                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Confirm Remove from Enrolment Modal -->
+    <div id="allocateQuantityModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Allocate Items</h4>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <h5>{Item Description} - {Quantity selected}</h5>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Department
+                                    </th>
+                                    <th>Quantity Needed
+                                    </th>
+                                    <th>Quantity Retrieved
+                                    </th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Science
+                                    </td>
+                                    <td>5
+                                    </td>
+                                    <td>
+                                        <input type="number" class="form-control" value="5" />
+                                    </td>
+                                </tr>
+                                <tr class="active">
+                                    <td>Computer Sciences
+                                    </td>
+                                    <td>50
+                                    </td>
+                                    <td>
+                                        <input type="number" class="form-control" value="50" />
+                                    </td>
+                                </tr>
+                                <tr class="success">
+                                    <td>Zoology
+                                    </td>
+                                    <td>50
+                                    </td>
+                                    <td>
+                                        <input type="number" class="form-control" value="50" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button id="confirmbtn" name="confirmbtn" type="submit"
+                            class="btn btn-primary">
+                            Confirm Allocation</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function ShowModal() {
+            $('#allocateQuantityModal').modal('toggle');
+        }
+    </script>
 
 </asp:Content>

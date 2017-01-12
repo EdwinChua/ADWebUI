@@ -30,7 +30,7 @@
                     <td>8
                     </td>
                     <td>
-                        <input type="number" value="8" />
+                        <input type="number" class="form-control" value="8" />
                     </td>
                 </tr>
                 <tr class="active">
@@ -41,7 +41,7 @@
                     <td>9
                     </td>
                     <td>
-                        <input type="number" value="9"/>
+                        <input type="number" class="form-control" value="9"/>
                     </td>
                 </tr>
                 <tr class="success">
@@ -52,7 +52,7 @@
                     <td>8
                     </td>
                     <td>
-                        <input type="number" value="8" />
+                        <input type="number" class="form-control" value="8" />
                     </td>
                 </tr>
                 <tr class="warning">
@@ -63,7 +63,7 @@
                     <td>5
                     </td>
                     <td>
-                        <input type="number" value="5" />
+                        <input type="number" class="form-control" value="5" />
                     </td>
                 </tr>
                 <tr class="danger">
@@ -74,7 +74,7 @@
                     <td>5
                     </td>
                     <td>
-                        <input type="number" value="5" />
+                        <input type="number" class="form-control" value="5" />
                     </td>
                 </tr>
             </tbody>
