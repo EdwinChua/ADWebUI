@@ -66,11 +66,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="deptemp.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
     <Content Include="packages.config" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,6 +93,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="deptemp.aspx.cs">
+      <DependentUpon>deptemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deptemp.aspx.designer.cs">
+      <DependentUpon>deptemp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dept\Rep\changeCollection.aspx.cs">
       <DependentUpon>changeCollection.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -168,6 +177,13 @@
     </Compile>
     <Compile Include="store\ViewRetrievalList.aspx.designer.cs">
       <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
