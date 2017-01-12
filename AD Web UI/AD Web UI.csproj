@@ -86,6 +86,7 @@
     <Content Include="store\ViewDisbursement.aspx" />
     <Content Include="store\ViewDisbursementItems.aspx" />
     <Content Include="store\ViewInventory.aspx" />
+    <Content Include="store\ViewRetrievalList.aspx" />
     <Content Include="text.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -142,21 +143,31 @@
     </Compile>
     <Compile Include="store\ViewDisbursement.aspx.cs">
       <DependentUpon>ViewDisbursement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="store\ViewDisbursement.aspx.designer.cs">
       <DependentUpon>ViewDisbursement.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\ViewDisbursementItems.aspx.cs">
       <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="store\ViewDisbursementItems.aspx.designer.cs">
       <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\ViewInventory.aspx.cs">
       <DependentUpon>ViewInventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="store\ViewInventory.aspx.designer.cs">
       <DependentUpon>ViewInventory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\ViewRetrievalList.aspx.cs">
+      <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\ViewRetrievalList.aspx.designer.cs">
+      <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
