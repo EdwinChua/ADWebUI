@@ -81,8 +81,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="store\CreateNewAdjustment.aspx" />
     <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
+    <Content Include="store\InventoryAdjustment.aspx" />
     <Content Include="store\newStockCard.aspx" />
     <Content Include="store\Stockcard.aspx" />
     <Content Include="store\ViewDisbursement.aspx" />
@@ -114,6 +116,13 @@
     <Compile Include="Dept\Rep\confirmDisbursList.aspx.designer.cs">
       <DependentUpon>confirmDisbursList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="store\CreateNewAdjustment.aspx.cs">
+      <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\CreateNewAdjustment.aspx.designer.cs">
+      <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>
+    </Compile>
     <Compile Include="store\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,6 +144,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="store\InventoryAdjustment.aspx.cs">
+      <DependentUpon>InventoryAdjustment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\InventoryAdjustment.aspx.designer.cs">
+      <DependentUpon>InventoryAdjustment.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\newStockCard.aspx.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>

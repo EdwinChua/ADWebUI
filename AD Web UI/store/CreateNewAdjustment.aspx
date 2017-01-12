@@ -1,39 +1,37 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ViewInventory.aspx.cs" Inherits="AD_Web_UI.store.MaintainInventoryInfo" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CreateNewAdjustment.aspx.cs" Inherits="AD_Web_UI.store.CreateNewAdjustment" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    View Inventory
+    Inventory Adjustment - Create New
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid">
-        <div class="row jumbotron">
-
-            <form class="form" role="form">
-                <div class="col-md-2 form-group ">
-                    <label for="categoryPicker">
-                        Category
-                    </label>
-                </div>
-                <div class="col-md-4 form-group">
-                    <select id="categoryPicker" name="category"
-                        class="selectpicker show-tick form-control"
-                        data-live-search="true" required>
-                        <option></option>
-                        <option>Pen</option>
-                        <option>Transparency</option>
-                        <option>Trays</option>
-
-                    </select>
-                </div>
-                <div class="col-md-2 form-group ">
-                    <button class="btn btn-default" type="submit">
-                        Search
-                    </button>
-                </div>
-            </form>
-        </div>
-        <div>
+    <div class="row jumbotron">
+        <form role="form">
+            <div class="col-lg-2 form-group">
+                <select id="categoryPicker" name="category"
+                    class="selectpicker show-tick form-control"
+                    data-live-search="true" required>
+                    <option title="Select item"></option>
+                    <option>Pen</option>
+                    <option>Transparency</option>
+                    <option>Trays</option>
+                </select>
+            </div>
+            <div class="col-lg-2 form-group">
+                <input class="form-control" type="number" placeholder="Quantity" />
+            </div>
+            <div class="col-lg-4 form-group">
+                <input class="form-control" type="text" placeholder="Reason" />
+            </div>
+            <div class="col-lg-1">
+                <button class="btn btn-default" type="submit">
+                    Add to Adjustment List
+                </button>
+            </div>
+        </form>
+    </div>
+    <div>
             <table class="table">
                 <thead>
                     <tr>
@@ -100,6 +98,6 @@
                     </tr>
                 </tbody>
             </table>
+        <input type="button" class="btn btn-warning" value="Submit for approval"/>
         </div>
-    </div>
 </asp:Content>
