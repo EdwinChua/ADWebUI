@@ -72,7 +72,7 @@
     <Content Include="readme.html" />
     <Content Include="Site.Master" />
     <Content Include="packages.config" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="makerequi.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -178,12 +178,12 @@
     <Compile Include="store\ViewRetrievalList.aspx.designer.cs">
       <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="makerequi.aspx.cs">
+      <DependentUpon>makerequi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
+    <Compile Include="makerequi.aspx.designer.cs">
+      <DependentUpon>makerequi.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
