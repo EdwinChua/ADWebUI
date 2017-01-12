@@ -6,7 +6,7 @@
     View Stationery Retrieval List
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="jumbotron">
+    <div class="row jumbotron">
         <form class="form" role="form">
             <div class="form-group">
                 <div class="col-lg-2">
@@ -33,6 +33,7 @@
             </div>
         </form>
     </div>
+    <div><br /></div>
     <table class="table">
                     <thead>
                         <tr>
