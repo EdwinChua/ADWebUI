@@ -9,39 +9,34 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4">
-                        <form role="form">
+                <div class="jumbotron row">
+                    <form role="form">
+                        <div class="col-md-2">
                             <div class="form-group">
-
                                 <label for="searchInput">
                                     Search:
                                 </label>
-                                <input class="form-control" id="searchInput" type="email" />
-
-                                <div>
-                                    <select id="lecturerId" name="lecturerId"
-                                        class="selectpicker show-tick form-control"
-                                        data-live-search="true" required>
-                                        <option>${data.lecturerDetails.lecturerId }</option>
-                                        <c:foreach var="lecturer" items="${lecturerList}">
-											<option
-												data-subtext="${lecturer.lastName }, ${lecturer.firstName }">${lecturer.lecturerId }</option>
-										</c:foreach>
-                                    </select>
-                                </div>
                             </div>
-
-
+                        </div>
+                        <div class="col-md-4">
+                            <div>
+                                <select id="lecturerId" name="lecturerId"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">Computer Science Department</option>
+                                    <option data-subtext="Location: Management School (11.00am)">Commerce Department</option>
+                                    <option data-subtext="Location: Medical School (9.30am)">Registrar Department</option>
+                                    <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">English Department</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
                             <button class="btn btn-default" type="submit">
                                 Search
                             </button>
-                        </form>
-                    </div>
-                    <div class="col-md-4">
-                    </div>
-                    <div class="col-md-4">
-                    </div>
+                        </div>
+                    </form>
                 </div>
                 <table class="table">
                     <thead>

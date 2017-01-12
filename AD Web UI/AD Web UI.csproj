@@ -83,7 +83,7 @@
   <ItemGroup>
     <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
-    <Content Include="store\MaintainInventoryInfo.aspx" />
+    <Content Include="store\ViewInventory.aspx" />
     <Content Include="store\Stockcard.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,12 +110,12 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="store\MaintainInventoryInfo.aspx.cs">
-      <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
+    <Compile Include="store\ViewInventory.aspx.cs">
+      <DependentUpon>ViewInventory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\MaintainInventoryInfo.aspx.designer.cs">
-      <DependentUpon>MaintainInventoryInfo.aspx</DependentUpon>
+    <Compile Include="store\ViewInventory.aspx.designer.cs">
+      <DependentUpon>ViewInventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\newStockCard.aspx.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>
