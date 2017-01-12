@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-     <div class="container-fluid">
+   <%--  <div class="container-fluid">
 	   <div class="row">
 		<div class="col-md-8">
 
@@ -44,7 +44,7 @@
 			</nav>
 		</div>
 	</div>
-</div>
+</div>--%>
 
 
 
