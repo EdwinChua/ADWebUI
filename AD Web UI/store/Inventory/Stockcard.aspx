@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    Update Stock Card - {Include item name + code here}
+    Update Stock Card - P101 Blue Pen
     <!--TODO: Include item name + code here -->
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -21,7 +21,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <label>
-                                    {Item Code}
+                                    P101
                                 </label>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <label>
-                                    {Category}, {Item Description}
+                                    Pen, Blue Pen
                                 </label>
                             </div>
                         </div>
@@ -119,11 +119,11 @@
                     <tr>
                         <th>#
                         </th>
-                        <th>Product
+                        <th>Date
                         </th>
-                        <th>Payment Taken
+                        <th>Description
                         </th>
-                        <th>Status
+                        <th>Quantity
                         </th>
                     </tr>
                 </thead>
@@ -131,53 +131,24 @@
                     <tr>
                         <td>1
                         </td>
-                        <td>TB - Monthly
-                        </td>
                         <td>01/04/2012
                         </td>
-                        <td>Default
+                        <td>Supplier - BANE
+                        </td>
+                        <td>+500
                         </td>
                     </tr>
                     <tr class="active">
-                        <td>1
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>01/04/2012
-                        </td>
-                        <td>Approved
-                        </td>
-                    </tr>
-                    <tr class="success">
                         <td>2
-                        </td>
-                        <td>TB - Monthly
                         </td>
                         <td>02/04/2012
                         </td>
-                        <td>Declined
+                        <td>Zoology
+                        </td>
+                        <td>-200
                         </td>
                     </tr>
-                    <tr class="warning">
-                        <td>3
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>03/04/2012
-                        </td>
-                        <td>Pending
-                        </td>
-                    </tr>
-                    <tr class="danger">
-                        <td>4
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>04/04/2012
-                        </td>
-                        <td>Call in to confirm
-                        </td>
-                    </tr>
+               
                 </tbody>
             </table>
         </div>
