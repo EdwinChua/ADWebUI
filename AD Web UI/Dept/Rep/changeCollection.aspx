@@ -3,12 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    Collecction Point:
+    Collection Point: 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <br />
     <form runat="server">
-        <asp:TextBox runat="server" Enabled="false"></asp:TextBox>
+        <asp:TextBox runat="server" Enabled="false">Medical School</asp:TextBox>
     </form>
     <br />
     <br />
@@ -20,7 +20,7 @@
             <select id="collection" name="collection"
                 class="selectpicker show-tick form-control" 
                 data-live-search="true" >
-                <option>Management Schoolg</option>
+                <option>Management School</option>
                 <option>Medical School</option>
                 <option>Engineering School</option>
                 <option>Science School</option>

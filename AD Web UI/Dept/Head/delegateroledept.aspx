@@ -61,11 +61,23 @@
            
                     
 
-
+<h5>
                <div>Start Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/5/2017<br />
-                    End Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/15/2017<br />
-                    <br /></div>
-                <div>Actual End Date:</div>
+                    End Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/15/2017<br /><br />
+                   <asp:CheckBox ID="CheckBox5" runat="server" Text="Approve Requisition" />
+                   <br />
+                   <asp:CheckBox ID="CheckBox6" runat="server" Text="Cange Collection Point" />
+                   <br />
+                   <asp:CheckBox ID="CheckBox1" runat="server" Text="View Requisiton" />
+                   <br />
+                    <asp:CheckBox ID="CheckBox2" runat="server" Text="Make Requisition" />
+                   <br />
+                   <asp:CheckBox ID="CheckBox3" runat="server" Text="Delegate Role" />
+                   <br />
+                   <asp:CheckBox ID="CheckBox4" runat="server" Text="View Collection Details" />
+                   <br />
+                    <br /></div></h5>
+                <%--<div>Actual End Date:</div>
                 
 
                                 <div class='col-sm-2'>
@@ -80,13 +92,18 @@
         </div>
                                 <br />
                                 <br />
-                                <br />
-                                Approved By:<asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="141px"></asp:TextBox>
+                                <br />--%>
+                <%--                Approved By:<asp:TextBox ID="TextBox1" runat="server" Height="16px" Width="141px"></asp:TextBox>
                     <br />
                                 Approved Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1/5/2017<br />
                     <br />
-                    <br />
-                    <button runat="server">Delegate</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button runat="server">Expire</button>
+                    <br />--%>
+                   <button type="button" class="btn btn-success btn-lg">
+ 						Delegate</button>
+ 		
+ 					<button type="button" class="btn btn-danger btn-lg">
+ 						Expire
+ 					</button>
                 
           
              
@@ -97,7 +114,7 @@
                          </form>
 
 
- <script type="text/javascript">
+<%-- <script type="text/javascript">
             $(function () {
                 $('#datetimepicker5').datetimepicker({
                     defaultDate: "11/1/2013",
@@ -108,7 +125,7 @@
                     ]
                 });
             });
-        </script>
+        </script>--%>
 
 </asp:Content>
 

@@ -1,34 +1,41 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Approve.aspx.cs" Inherits="AD_Web_UI.Dept.Head.Approve" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
+   <div class="col-md-12"><h3>     Approve/Reject Requisition  </h3> </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+        <form id="form1" runat="server">
         <div class="container-fluid">
  	<div class="row">
 		<div class="col-md-12">
-			<h4>
+			<h5>
 				Requisition Form#: DDS/111/999
 			<div>
 				Dept Name:Department of Register
 					<h5>
 						<div>
+							<br />
 							Dept Code:DDS
-						</div>
-						
- 						<div>
+						    <br />
+                            <br />
  							Employee Name:Jenny Wong Mei Lin
- 						</div>
- 						<div>
+ 						    <br />
+                            <br />
  							Employee Number:11233
- 						</div>
- 						
- 						<div>
- 							Employee Email Address:Jenny@LogicUniversity
- 						</div>
+ 						    <br />
+                            <br />
+ 							Employee Email Address:<a href="mailto:Address:Jenny@LogicUniversity">Jenny@LogicUniversity</a>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+						</div>
  					</h5>
  				</div>
- 			</h4><span class="label label-default"></span>
+                <span class="label label-default"></span>
  			<table class="table">
  				<thead>
  					<tr>
@@ -59,7 +66,7 @@
  							10
  						</td>
  					</tr>
- 					<tr class="active">
+ 					<tr>
  						<td>
  							S002
  						</td>
@@ -72,7 +79,7 @@
  							45
  						</td>
  					</tr>
- 					<tr class="success">
+ 					<tr>
  						<td>
  							P049
  						</td>
@@ -85,7 +92,7 @@
  							100
  					</td>
  					</tr>
- 					<tr class="warning">
+ 					<tr>
  						<td>
  							T100
  						</td>
@@ -98,7 +105,7 @@
  						25
  						</td>
  				</tr>
- 				<tr class="danger">
+ 				<tr>
  						<td>
  							S010
  					</td>
@@ -113,15 +120,11 @@
  				</tr>
  				</tbody>
  		</table>
- 			<h4>
+ 			<h5>
  				Comment:
- 		</h4>
+ 		</h5>
  			<p>
- 				Rejected.......
- 			</p>
- 			<p>
- 			<a class="btn" href="#">View details »</a>
- 			</p>
+ 			&nbsp;<textarea id="TextArea1" aria-autocomplete="none" aria-disabled="False" aria-multiline="True" aria-multiselectable="True" aria-orientation="vertical" name="S1" rows="3" cols="50"></textarea></p>
  			
  				
  				 
@@ -136,4 +139,5 @@
  		</div>
  		
  </div>
+        </form>
 </asp:Content>
