@@ -183,16 +183,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="store\CreateNewAdjustment.aspx" />
+    <Content Include="store\Adjustment\CreateNewAdjustment.aspx" />
     <Content Include="store\dashboard.aspx" />
     <Content Include="home.aspx" />
-    <Content Include="store\InventoryAdjustment.aspx" />
-    <Content Include="store\newStockCard.aspx" />
-    <Content Include="store\Stockcard.aspx" />
-    <Content Include="store\ViewDisbursement.aspx" />
-    <Content Include="store\ViewDisbursementItems.aspx" />
-    <Content Include="store\ViewInventory.aspx" />
-    <Content Include="store\ViewRetrievalList.aspx" />
+    <Content Include="store\Adjustment\InventoryAdjustment.aspx" />
+    <Content Include="store\Resupply\InventoryResupply.aspx" />
+    <Content Include="store\Inventory\newStockCard.aspx" />
+    <Content Include="store\Reports.aspx" />
+    <Content Include="store\Inventory\Stockcard.aspx" />
+    <Content Include="store\Disbursement\ViewDisbursement.aspx" />
+    <Content Include="store\Disbursement\ViewDisbursementItems.aspx" />
+    <Content Include="store\Inventory\ViewInventory.aspx" />
+    <Content Include="store\Resupply\ViewReceiveOrder.aspx" />
+    <Content Include="store\Inventory\ViewRetrievalList.aspx" />
     <Content Include="text.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -225,11 +228,11 @@
     <Compile Include="Dept\viewdetail.aspx.designer.cs">
       <DependentUpon>viewdetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\CreateNewAdjustment.aspx.cs">
+    <Compile Include="store\Adjustment\CreateNewAdjustment.aspx.cs">
       <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\CreateNewAdjustment.aspx.designer.cs">
+    <Compile Include="store\Adjustment\CreateNewAdjustment.aspx.designer.cs">
       <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\dashboard.aspx.cs">
@@ -254,53 +257,74 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
-    <Compile Include="store\InventoryAdjustment.aspx.cs">
+    <Compile Include="store\Adjustment\InventoryAdjustment.aspx.cs">
       <DependentUpon>InventoryAdjustment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\InventoryAdjustment.aspx.designer.cs">
+    <Compile Include="store\Adjustment\InventoryAdjustment.aspx.designer.cs">
       <DependentUpon>InventoryAdjustment.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\newStockCard.aspx.cs">
+    <Compile Include="store\Resupply\InventoryResupply.aspx.cs">
+      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\Resupply\InventoryResupply.aspx.designer.cs">
+      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\Inventory\newStockCard.aspx.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\newStockCard.aspx.designer.cs">
+    <Compile Include="store\Inventory\newStockCard.aspx.designer.cs">
       <DependentUpon>newStockCard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\Stockcard.aspx.cs">
+    <Compile Include="store\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\Inventory\Stockcard.aspx.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\Stockcard.aspx.designer.cs">
+    <Compile Include="store\Inventory\Stockcard.aspx.designer.cs">
       <DependentUpon>Stockcard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewDisbursement.aspx.cs">
+    <Compile Include="store\Disbursement\ViewDisbursement.aspx.cs">
       <DependentUpon>ViewDisbursement.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewDisbursement.aspx.designer.cs">
+    <Compile Include="store\Disbursement\ViewDisbursement.aspx.designer.cs">
       <DependentUpon>ViewDisbursement.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewDisbursementItems.aspx.cs">
+    <Compile Include="store\Disbursement\ViewDisbursementItems.aspx.cs">
       <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewDisbursementItems.aspx.designer.cs">
+    <Compile Include="store\Disbursement\ViewDisbursementItems.aspx.designer.cs">
       <DependentUpon>ViewDisbursementItems.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewInventory.aspx.cs">
+    <Compile Include="store\Inventory\ViewInventory.aspx.cs">
       <DependentUpon>ViewInventory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewInventory.aspx.designer.cs">
+    <Compile Include="store\Inventory\ViewInventory.aspx.designer.cs">
       <DependentUpon>ViewInventory.aspx</DependentUpon>
     </Compile>
-    <Compile Include="store\ViewRetrievalList.aspx.cs">
+    <Compile Include="store\Resupply\ViewReceiveOrder.aspx.cs">
+      <DependentUpon>ViewReceiveOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="store\Resupply\ViewReceiveOrder.aspx.designer.cs">
+      <DependentUpon>ViewReceiveOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="store\Inventory\ViewRetrievalList.aspx.cs">
       <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="store\ViewRetrievalList.aspx.designer.cs">
+    <Compile Include="store\Inventory\ViewRetrievalList.aspx.designer.cs">
       <DependentUpon>ViewRetrievalList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dept\makerequi.aspx.cs">
