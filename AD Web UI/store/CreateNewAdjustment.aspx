@@ -32,72 +32,65 @@
         </form>
     </div>
     <div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>#
-                        </th>
-                        <th>Product
-                        </th>
-                        <th>Payment Taken
-                        </th>
-                        <th>Status
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>01/04/2012
-                        </td>
-                        <td>Default
-                        </td>
-                    </tr>
-                    <tr class="active">
-                        <td>1
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>01/04/2012
-                        </td>
-                        <td>Approved
-                        </td>
-                    </tr>
-                    <tr class="success">
-                        <td>2
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>02/04/2012
-                        </td>
-                        <td>Declined
-                        </td>
-                    </tr>
-                    <tr class="warning">
-                        <td>3
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>03/04/2012
-                        </td>
-                        <td>Pending
-                        </td>
-                    </tr>
-                    <tr class="danger">
-                        <td>4
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>04/04/2012
-                        </td>
-                        <td>Call in to confirm
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        <input type="button" class="btn btn-warning" value="Submit for approval"/>
-        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item Code
+                    </th>
+                    <th>Item Description
+                    </th>
+                    <th>Quantity Adjusted
+                    </th>
+                    <th>Reason
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>P006
+                    </td>
+                    <td>Pen, blue
+                    </td>
+                    <td>-6
+                    </td>
+                    <td>Broken items
+                    </td>
+                    <td>
+                        <input type="button" class=" btn btn-danger" value="Remove" />
+                    </td>
+                </tr>
+                <tr class="active">
+                    <td>F024
+                    </td>
+                    <td>File, clear
+                    </td>
+                    <td>+6
+                    </td>
+                    <td>Free gift in offer pack
+                    </td>
+                    <td>
+                        <input type="button" class=" btn btn-danger" value="Remove" />
+                    </td>
+                </tr>
+                <tr class="success">
+                    <td>P101
+                    </td>
+                    <td>Pencil, eraser-tip
+                    </td>
+                    <td>-6
+                    </td>
+                    <td>Missing in stock take
+                    </td>
+                    <td>
+                        <input type="button" class=" btn btn-danger" value="Remove" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Total sum: $100.10</h4>
+        <p>Note: Adjustments amounting to $250 and more will be sent to the Manager for approval.</p>
+        <input type="button" class="btn btn-warning" value="Submit for approval" />
+    </div>
+
 </asp:Content>
