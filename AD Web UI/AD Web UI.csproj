@@ -66,10 +66,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Approve.aspx" />
+    <Content Include="delegateroledept.aspx" />
     <Content Include="packages.config" />
     <Content Include="readme.html" />
+    <Content Include="revokerole.aspx" />
     <Content Include="Site.Master" />
     <Content Include="deptemp.aspx" />
+    <Content Include="WebForm4.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -87,6 +91,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Approve.aspx.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Approve.aspx.designer.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="delegateroledept.aspx.cs">
+      <DependentUpon>delegateroledept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delegateroledept.aspx.designer.cs">
+      <DependentUpon>delegateroledept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="revokerole.aspx.cs">
+      <DependentUpon>revokerole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="revokerole.aspx.designer.cs">
+      <DependentUpon>revokerole.aspx</DependentUpon>
+    </Compile>
     <Compile Include="store\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -143,6 +168,13 @@
     </Compile>
     <Compile Include="deptemp.aspx.designer.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
