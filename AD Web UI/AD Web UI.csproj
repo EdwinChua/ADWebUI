@@ -239,13 +239,6 @@
     <Compile Include="Dept\Rep\confirmDisbursList.aspx.designer.cs">
       <DependentUpon>confirmDisbursList.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Dept\viewdetail.aspx.cs">
-      <DependentUpon>viewdetail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Dept\viewdetail.aspx.designer.cs">
-      <DependentUpon>viewdetail.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Store\Adjustment\CreateNewAdjustment.aspx.cs">
       <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
