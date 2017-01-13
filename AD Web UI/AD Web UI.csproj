@@ -76,7 +76,6 @@
     <Content Include="Dept\deptemp.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="readme.html" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -218,6 +217,13 @@
     </Compile>
     <Compile Include="Dept\Rep\confirmDisbursList.aspx.designer.cs">
       <DependentUpon>confirmDisbursList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dept\viewdetail.aspx.cs">
+      <DependentUpon>viewdetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dept\viewdetail.aspx.designer.cs">
+      <DependentUpon>viewdetail.aspx</DependentUpon>
     </Compile>
     <Compile Include="store\CreateNewAdjustment.aspx.cs">
       <DependentUpon>CreateNewAdjustment.aspx</DependentUpon>

@@ -102,7 +102,30 @@
 						
 						
 					</form>
+
+
 				</div>
+
+                
+
+
+
+                <div class="col-md-4">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+                    NEWS
+				</div>
+				<div class="panel-body">
+					<p>Mun Kew received his PhD from Stanford University. He has more than 25 years of R&D and commercial experience in IT. He was Chair and Editor of the ISO/JTC1/WG2/24800 JPSearch international standard, editor or past editor of the Journal of Information Retrieval, Information Processing and Management Journal, member of the advisory board for the School of IIT at Temasek Polytechnic, the IRAL and AIRS symposium series, and formerly Adjunct Assoc. Prof at the National Institute of Education.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
 				<div class="col-md-4">
 				</div>
 			</div>
@@ -136,6 +159,7 @@
 							Submit
 						</button>
 		</div>
+
 	</div>
 </div>
            
