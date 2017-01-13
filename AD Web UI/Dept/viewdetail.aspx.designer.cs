@@ -10,6 +10,6 @@
 namespace AD_Web_UI.Dept {
     
     
-    public partial class viewdetail {
+    public partial class WebForm1 {
     }
 }
