@@ -76,6 +76,7 @@
     <Content Include="Dept\deptemp.aspx" />
     <Content Include="Dept\Head\Approve.aspx" />
     <Content Include="Dept\Head\delegateroledept.aspx" />
+    <Content Include="Dept\Head\viewall.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
     <Content Include="Dept\viewdetail.aspx" />
@@ -226,6 +227,13 @@
     </Compile>
     <Compile Include="Dept\Head\delegateroledept.aspx.designer.cs">
       <DependentUpon>delegateroledept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dept\Head\viewall.aspx.cs">
+      <DependentUpon>viewall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dept\Head\viewall.aspx.designer.cs">
+      <DependentUpon>viewall.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dept\Rep\changeCollection.aspx.cs">
       <DependentUpon>changeCollection.aspx</DependentUpon>
