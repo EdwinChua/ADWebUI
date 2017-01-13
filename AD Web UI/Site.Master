@@ -168,7 +168,7 @@
     </div>
 
     <footer class="container-fluid text-center">
-        <p>Some stupid text.</p>
+        <p>Footer</p>
     </footer>
 
 </body>
