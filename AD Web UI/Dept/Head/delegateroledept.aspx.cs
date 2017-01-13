@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AD_Web_UI
+namespace AD_Web_UI.Dept.Head
 {
     public partial class delegateroledept : System.Web.UI.Page
     {

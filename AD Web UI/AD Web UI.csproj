@@ -74,6 +74,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Dept\deptemp.aspx" />
+    <Content Include="Dept\Head\Approve.aspx" />
+    <Content Include="Dept\Head\delegateroledept.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
     <Content Include="readme.html" />
@@ -203,6 +205,20 @@
     </Compile>
     <Compile Include="Dept\deptemp.aspx.designer.cs">
       <DependentUpon>deptemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dept\Head\Approve.aspx.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dept\Head\Approve.aspx.designer.cs">
+      <DependentUpon>Approve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dept\Head\delegateroledept.aspx.cs">
+      <DependentUpon>delegateroledept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dept\Head\delegateroledept.aspx.designer.cs">
+      <DependentUpon>delegateroledept.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dept\Rep\changeCollection.aspx.cs">
       <DependentUpon>changeCollection.aspx</DependentUpon>

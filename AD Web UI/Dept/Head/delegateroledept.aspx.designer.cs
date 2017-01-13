@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AD_Web_UI {
+namespace AD_Web_UI.Dept.Head {
     
     
     public partial class delegateroledept {
