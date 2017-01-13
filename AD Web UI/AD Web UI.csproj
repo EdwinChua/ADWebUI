@@ -192,7 +192,7 @@
     <Content Include="Store\Maintain\Supplier.aspx" />
     <Content Include="Store\Maintain\SupplierList.aspx" />
     <Content Include="Store\Resupply\GeneratePO.aspx" />
-    <Content Include="Store\Resupply\InventoryResupply.aspx" />
+    <Content Include="Store\Resupply\SupplyOrderSummary.aspx" />
     <Content Include="Store\Inventory\NewStockCard.aspx" />
     <Content Include="Store\Reports.aspx" />
     <Content Include="Store\Inventory\Stockcard.aspx" />
@@ -304,12 +304,12 @@
     <Compile Include="Store\Resupply\GeneratePO.aspx.designer.cs">
       <DependentUpon>GeneratePO.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Store\Resupply\InventoryResupply.aspx.cs">
-      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+    <Compile Include="Store\Resupply\SupplyOrderSummary.aspx.cs">
+      <DependentUpon>SupplyOrderSummary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Store\Resupply\InventoryResupply.aspx.designer.cs">
-      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+    <Compile Include="Store\Resupply\SupplyOrderSummary.aspx.designer.cs">
+      <DependentUpon>SupplyOrderSummary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Store\Inventory\NewStockCard.aspx.cs">
       <DependentUpon>NewStockCard.aspx</DependentUpon>
