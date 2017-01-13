@@ -17,9 +17,100 @@
 			<h3>
 				Requisition ID:
 			</h3>
-			<h3>
-				Name:
+            <h3>
+				Department:
 			</h3>
+			<h3>
+				Item List:
+			</h3>
+
+            <table class="table">
+ 				<thead>
+ 					<tr>
+ 						<th>
+ 							#Catalogue Item Code
+ 						</th>
+ 						<th>
+ 						</th>
+ 						<th>
+ 							Description
+ 						</th>
+ 						<th>
+ 							Quantity
+ 						</th>
+ 					</tr>
+ 				</thead>
+ 				<tbody>
+ 					<tr>
+ 						<td>
+ 							C010
+ 						</td>
+ 						<td>
+ 						</td>
+						<td>
+ 							Clips Double 2"
+ 						</td>
+ 						<td>
+ 							10
+ 						</td>
+ 					</tr>
+					<tr>
+ 						<td>
+ 							S002
+ 						</td>
+ 						<td>
+ 						</td>
+ 						<td>
+ 							Short Hand Book
+ 						</td>
+ 						<td>
+ 							45
+ 						</td>
+ 					</tr>
+ 					<tr >
+						<td>
+ 							P049
+ 						</td>
+ 						<td>
+ 						</td>
+ 						<td>
+ 							Pad Postit 2"x4"
+ 					</td>
+ 						<td>
+ 							100
+ 						</td>
+ 					</tr>
+ 					<tr>
+ 						<td>
+ 							T100
+ 						</td>
+ 						<td>
+						</td>
+ 						<td>
+ 							Trays in/out
+ 						</td>
+ 					<td>
+ 							25
+ 						</td>
+ 					</tr>
+ 					<tr >
+ 						<td>
+ 							S010
+ 						</td>
+ 						<td>
+ 						</td>
+ 						<td>
+ 							Stapler No.28
+ 						</td>
+ 						<td>
+ 							55
+ 						</td>
+ 					</tr>
+ 				</tbody>
+ 			</table>
+            
+
+
 			<h3>
 				Descriptions:
 			</h3>
