@@ -7,6 +7,7 @@
 </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
+	 <div class="col-md-12"><h3> Delegate Acting Department-Head </h3> </div>
 </asp:Content>
 
 <asp:Content ID="Content6" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -102,7 +103,7 @@
  						Delegate</button>
  		
  					<button type="button" class="btn btn-danger btn-lg">
- 						Expire
+ 						Terminate
  					</button>
                 
           
