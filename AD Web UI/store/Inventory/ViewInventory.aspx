@@ -36,7 +36,7 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>#
+                        <th>Item Code
                         </th>
                         <th>Product
                         </th>

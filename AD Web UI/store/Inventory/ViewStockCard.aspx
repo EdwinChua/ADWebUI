@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Stockcard.aspx.cs" Inherits="AD_Web_UI.store.Stockcard" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ViewStockCard.aspx.cs" Inherits="AD_Web_UI.Store.Inventory.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    Update Stock Card - P101 Blue Pen
+    View Stock Card - C101 Clips Double 1
     <!--TODO: Include item name + code here -->
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -21,7 +20,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <label>
-                                    P101
+                                    C101
                                 </label>
                             </div>
                         </div>
@@ -35,7 +34,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <label>
-                                    Pen, Blue Pen
+                                    Clips Double 1
                                 </label>
                             </div>
                         </div>
@@ -43,38 +42,31 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-3">
-                                <label for="inputForBinNumber">
+                                <label>
                                     Bin# :
                                 </label>
                             </div>
                             <div class="col-lg-6">
-                                <input class="form-control" id="inputForBinNumber" type="text" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <label for="inputForUOM">
-                                    UOM:
+                                <label>
+                                   A7
                                 </label>
                             </div>
-                            <div class="col-lg-6">
-                                <input class="form-control" id="inputForUOM" type="text" />
-                            </div>
                         </div>
                     </div>
+  
                 </div>
                 <div class="col-lg-6">
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-3">
-                                <label for="inputForSupplier1">
+                                <label>
                                     Supplier 1:
                                 </label>
                             </div>
                             <div class="col-lg-6">
-                                <input class="form-control" id="inputForSupplier1" type="text" />
+                                <label>
+                                    BANE
+                                </label>
                             </div>
                         </div>
                     </div>
@@ -86,7 +78,9 @@
                                 </label>
                             </div>
                             <div class="col-lg-6">
-                                <input class="form-control" id="inputForSupplier2" type="text" />
+                                <label>
+                                    CHEP
+                                </label>
                             </div>
                         </div>
                     </div>
@@ -98,7 +92,9 @@
                                 </label>
                             </div>
                             <div class="col-lg-6">
-                                <input class="form-control" id="inputForSupplier3" type="text" />
+                                <label>
+                                    ALPHA
+                                </label>
                             </div>
                         </div>
                     </div>
@@ -107,13 +103,11 @@
                 </div>
             </div>
             <button class="btn btn-primary">
-                Update
-            </button>
-            <button class="btn btn-danger">
-                Delete
+                Edit
             </button>
         </form>
         <div>
+            <h3>Stock Movements</h3>
             <table class="table">
                 <thead>
                     <tr>
