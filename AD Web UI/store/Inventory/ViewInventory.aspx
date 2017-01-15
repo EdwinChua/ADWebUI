@@ -23,7 +23,6 @@
                         <option>Pen</option>
                         <option>Transparency</option>
                         <option>Trays</option>
-
                     </select>
                 </div>
                 <div class="col-md-2 form-group ">
@@ -37,65 +36,29 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>#
+                        <th>Item Code
                         </th>
                         <th>Product
-                        </th>
-                        <th>Payment Taken
-                        </th>
-                        <th>Status
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1
+                        <td>P101
                         </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>01/04/2012
-                        </td>
-                        <td>Default
+                        <td>Blue Pen
                         </td>
                     </tr>
                     <tr class="active">
-                        <td>1
+                        <td>P102
                         </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>01/04/2012
-                        </td>
-                        <td>Approved
+                        <td>Red Pen
                         </td>
                     </tr>
                     <tr class="success">
-                        <td>2
+                        <td>P103
                         </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>02/04/2012
-                        </td>
-                        <td>Declined
-                        </td>
-                    </tr>
-                    <tr class="warning">
-                        <td>3
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>03/04/2012
-                        </td>
-                        <td>Pending
-                        </td>
-                    </tr>
-                    <tr class="danger">
-                        <td>4
-                        </td>
-                        <td>TB - Monthly
-                        </td>
-                        <td>04/04/2012
-                        </td>
-                        <td>Call in to confirm
+                        <td>Green Pen
                         </td>
                     </tr>
                 </tbody>

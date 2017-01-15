@@ -62,7 +62,7 @@
                     <input type="number" class="form-control" value="5" />
                 </td>
                 <td>
-                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+                    <input type="button" class="btn btn-info disabled" value="Allocate" onclick="ShowModal()" /></td>
             </tr>
             <tr class="active">
                 <td>1
@@ -114,11 +114,12 @@
                     <input type="number" class="form-control" value="8" />
                 </td>
                 <td>
-                    <input type="button" class="btn btn-info" value="Allocate" onclick="ShowModal()" /></td>
+                    <input type="button" class="btn btn-info disabled" value="Allocate" onclick="ShowModal()" /></td>
             </tr>
         </tbody>
     </table>
 
+    <input type="button" class="btn btn-info" value="Generate Disbursements" />
     <!-- Confirm Remove from Enrolment Modal -->
     <div id="allocateQuantityModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -129,7 +130,7 @@
                 </div>
                 <form>
                     <div class="modal-body">
-                        <h5>{Item Description} - {Quantity selected}</h5>
+                        <h5>Pen, Blue - 40 to allocate</h5>
                         <table class="table">
                             <thead>
                                 <tr>
@@ -146,7 +147,7 @@
                                 <tr>
                                     <td>Science
                                     </td>
-                                    <td>5
+                                    <td>10
                                     </td>
                                     <td>
                                         <input type="number" class="form-control" value="5" />
@@ -155,7 +156,7 @@
                                 <tr class="active">
                                     <td>Computer Sciences
                                     </td>
-                                    <td>50
+                                    <td>10
                                     </td>
                                     <td>
                                         <input type="number" class="form-control" value="50" />
@@ -164,7 +165,7 @@
                                 <tr class="success">
                                     <td>Zoology
                                     </td>
-                                    <td>50
+                                    <td>30
                                     </td>
                                     <td>
                                         <input type="number" class="form-control" value="50" />

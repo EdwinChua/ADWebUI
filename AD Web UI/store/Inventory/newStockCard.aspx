@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    Update Stock Card - {Include item name + code here}
+    Create New Stock Card
     <!--TODO: Include item name + code here -->
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -14,11 +14,18 @@
                         <div class="row">
                             <div class="col-lg-2">
                                 <label for="inputForItemCode">
-                                    Item Code
+                                    Category
                                 </label>
                             </div>
                             <div class="col-lg-3">
-                                <input class="form-control" id="inputForItemCode" type="text" />
+                                <select id="cateogry" name="category"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option>Clip</option>
+                                    <option>Envelope</option>
+                                    <option>File</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -49,48 +56,104 @@
                      <div class="form-group">
                         <div class="row">
                             <div class="col-lg-2">
-                                <label for="inputForUOM">
+                                <label for="uom">
                                     UOM
                                 </label>
                             </div>
                             <div class="col-lg-3">
-                                <input class="form-control" id="inputForUOM" type="text" />
+                                <select id="uom" name="uom"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option>Dozen</option>
+                                    <option>Each</option>
+                                    <option>Set</option>
+                                    <option>Box </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <label for="sup">
+                                    Supplier 1
+                                </label>
+                            </div>
+                            <div class="col-lg-3">
+                                <select id="sup" name="sup"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option>BANES</option>
+                                    <option>CHEP</option>
+                                    <option>ALPHA</option>
+                                    <option>OK</option>
+                                </select>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-2">
-                                <label for="inputForSupplier1">
-                                    Supplier 1:
+                                <label for="sup">
+                                    Supplier 2
                                 </label>
                             </div>
                             <div class="col-lg-3">
-                                <input class="form-control" id="inputForSupplier1" type="text" />
+                                <select id="sup" name="sup"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option>BANES</option>
+                                    <option>CHEP</option>
+                                    <option>ALPHA</option>
+                                    <option>OK</option>
+                                </select>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-2">
-                                <label for="inputForSupplier2">
-                                    Supplier 2:
+                                <label for="sup">
+                                    Supplier 3
                                 </label>
                             </div>
                             <div class="col-lg-3">
-                                <input class="form-control" id="inputForSupplier2" type="text" />
+                                <select id="sup" name="sup"
+                                    class="selectpicker show-tick form-control"
+                                    data-live-search="true" required>
+                                    <option></option>
+                                    <option>BANES</option>
+                                    <option>CHEP</option>
+                                    <option>ALPHA</option>
+                                    <option>OK</option>
+                                </select>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="row">
                             <div class="col-lg-2">
-                                <label for="inputForSupplier3">
-                                    Supplier 3:
+                                <label for="rlevel">
+                                    Reorder Level
                                 </label>
                             </div>
                             <div class="col-lg-3">
-                                <input class="form-control" id="inputForSupplier3" type="text" />
+                                <input class="form-control" id="rlevel" type="number" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <label for="rqty">
+                                    Reorder Qty
+                                </label>
+                            </div>
+                            <div class="col-lg-3">
+                                <input class="form-control" id="rqty" type="number" />
                             </div>
                         </div>
                     </div>

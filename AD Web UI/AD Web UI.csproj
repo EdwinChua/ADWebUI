@@ -76,8 +76,10 @@
     <Content Include="Dept\deptemp.aspx" />
     <Content Include="Dept\Head\Approve.aspx" />
     <Content Include="Dept\Head\delegateroledept.aspx" />
+    <Content Include="Dept\Head\viewall.aspx" />
     <Content Include="Dept\Rep\changeCollection.aspx" />
     <Content Include="Dept\Rep\confirmDisbursList.aspx" />
+    <Content Include="Dept\viewdetail.aspx" />
     <Content Include="readme.html" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -189,13 +191,14 @@
     <Content Include="Store\Dashboard.aspx" />
     <Content Include="home.aspx" />
     <Content Include="Store\Adjustment\InventoryAdjustment.aspx" />
+    <Content Include="Store\Inventory\ViewStockCard.aspx" />
     <Content Include="Store\Maintain\Supplier.aspx" />
     <Content Include="Store\Maintain\SupplierList.aspx" />
     <Content Include="Store\Resupply\GeneratePO.aspx" />
-    <Content Include="Store\Resupply\InventoryResupply.aspx" />
+    <Content Include="Store\Resupply\SupplyOrderSummary.aspx" />
     <Content Include="Store\Inventory\NewStockCard.aspx" />
     <Content Include="Store\Reports.aspx" />
-    <Content Include="Store\Inventory\Stockcard.aspx" />
+    <Content Include="Store\Inventory\UpdateStockcard.aspx" />
     <Content Include="Store\Disbursement\ViewDisbursement.aspx" />
     <Content Include="Store\Disbursement\ViewDisbursementItems.aspx" />
     <Content Include="Store\Inventory\ViewInventory.aspx" />
@@ -225,6 +228,13 @@
     </Compile>
     <Compile Include="Dept\Head\delegateroledept.aspx.designer.cs">
       <DependentUpon>delegateroledept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dept\Head\viewall.aspx.cs">
+      <DependentUpon>viewall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dept\Head\viewall.aspx.designer.cs">
+      <DependentUpon>viewall.aspx</DependentUpon>
     </Compile>
     <Compile Include="Dept\Rep\changeCollection.aspx.cs">
       <DependentUpon>changeCollection.aspx</DependentUpon>
@@ -283,6 +293,13 @@
     <Compile Include="Store\Adjustment\InventoryAdjustment.aspx.designer.cs">
       <DependentUpon>InventoryAdjustment.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Store\Inventory\ViewStockCard.aspx.cs">
+      <DependentUpon>ViewStockCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Store\Inventory\ViewStockCard.aspx.designer.cs">
+      <DependentUpon>ViewStockCard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Store\Maintain\Supplier.aspx.cs">
       <DependentUpon>Supplier.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -304,12 +321,12 @@
     <Compile Include="Store\Resupply\GeneratePO.aspx.designer.cs">
       <DependentUpon>GeneratePO.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Store\Resupply\InventoryResupply.aspx.cs">
-      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+    <Compile Include="Store\Resupply\SupplyOrderSummary.aspx.cs">
+      <DependentUpon>SupplyOrderSummary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Store\Resupply\InventoryResupply.aspx.designer.cs">
-      <DependentUpon>InventoryResupply.aspx</DependentUpon>
+    <Compile Include="Store\Resupply\SupplyOrderSummary.aspx.designer.cs">
+      <DependentUpon>SupplyOrderSummary.aspx</DependentUpon>
     </Compile>
     <Compile Include="Store\Inventory\NewStockCard.aspx.cs">
       <DependentUpon>NewStockCard.aspx</DependentUpon>
@@ -325,12 +342,12 @@
     <Compile Include="Store\Reports.aspx.designer.cs">
       <DependentUpon>Reports.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Store\Inventory\Stockcard.aspx.cs">
-      <DependentUpon>Stockcard.aspx</DependentUpon>
+    <Compile Include="Store\Inventory\UpdateStockcard.aspx.cs">
+      <DependentUpon>UpdateStockcard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Store\Inventory\Stockcard.aspx.designer.cs">
-      <DependentUpon>Stockcard.aspx</DependentUpon>
+    <Compile Include="Store\Inventory\UpdateStockcard.aspx.designer.cs">
+      <DependentUpon>UpdateStockcard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Store\Disbursement\ViewDisbursement.aspx.cs">
       <DependentUpon>ViewDisbursement.aspx</DependentUpon>

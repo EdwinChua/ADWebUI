@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AD_Web_UI.Dept
+namespace AD_Web_UI.Dept.Head
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class viewall : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

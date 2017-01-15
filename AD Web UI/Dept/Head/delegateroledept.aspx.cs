@@ -13,5 +13,10 @@ namespace AD_Web_UI.Dept.Head
         {
 
         }
+
+        protected void CheckBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

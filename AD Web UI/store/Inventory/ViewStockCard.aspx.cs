@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AD_Web_UI.Dept
+namespace AD_Web_UI.Store.Inventory
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
