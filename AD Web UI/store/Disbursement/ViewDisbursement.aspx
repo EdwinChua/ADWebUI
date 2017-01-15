@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="SectionTitle" runat="server">
-    View Disbursement
+    View Disbursements
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container-fluid">
@@ -11,27 +11,27 @@
             <div class="col-md-12">
                 <div class="jumbotron row">
                     <form role="form">
+                        <div class="col-md-6">
+                            <select id="deptNdeliveryPicker" name="deptNdelivery"
+                                class="selectpicker show-tick form-control"
+                                data-live-search="true" title="Retrieve by department/delivery location. Leave blank to show all" multiple>
+                                <option ></option>
+                                <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">Computer Science Department</option>
+                                <option data-subtext="Location: Management School (11.00am)">Commerce Department</option>
+                                <option data-subtext="Location: Medical School (9.30am)">Registrar Department</option>
+                                <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">English Department</option>
+                            </select>
+                        </div>
                         <div class="col-md-2">
-                            <div class="form-group">
-                                <label for="searchInput">
-                                    Search:
-                                </label>
-                            </div>
+                            <select id="statusPicker" name="status"
+                                class="selectpicker show-tick form-control"
+                                data-live-search="true" title="Status">
+                                <option>Prepared</option>
+                                <option>Pending</option>
+                                <option>Complete</option>
+                            </select>
                         </div>
-                        <div class="col-md-4">
-                            <div>
-                                <select id="lecturerId" name="lecturerId"
-                                    class="selectpicker show-tick form-control"
-                                    data-live-search="true" required>
-                                    <option></option>
-                                    <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">Computer Science Department</option>
-                                    <option data-subtext="Location: Management School (11.00am)">Commerce Department</option>
-                                    <option data-subtext="Location: Medical School (9.30am)">Registrar Department</option>
-                                    <option data-subtext="Location: Stationary Store - Admin Bld (9.30am)">English Department</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
+                        <div class="col-md-1">
                             <button class="btn btn-default" type="submit">
                                 Search
                             </button>
@@ -41,11 +41,9 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>#
+                            <th>Department
                             </th>
-                            <th>Product
-                            </th>
-                            <th>Payment Taken
+                            <th>Delivery Location
                             </th>
                             <th>Status
                             </th>
@@ -53,53 +51,43 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1
+                            <td>Computer Science Department
                             </td>
-                            <td>TB - Monthly
+                            <td>Stationary Store - Admin Bld (9.30am)
                             </td>
-                            <td>01/04/2012
-                            </td>
-                            <td>Default
+                            <td>Completed
                             </td>
                         </tr>
                         <tr class="active">
-                            <td>1
+                            <td>Commerce Department
                             </td>
-                            <td>TB - Monthly
+                            <td>Management School (11.00am)
                             </td>
-                            <td>01/04/2012
-                            </td>
-                            <td>Approved
+                            <td>Prepared
                             </td>
                         </tr>
                         <tr class="success">
-                            <td>2
+                            <td>Zoology Department
                             </td>
-                            <td>TB - Monthly
+                            <td>Stationary Store - Admin Bld (9.30am)
                             </td>
-                            <td>02/04/2012
-                            </td>
-                            <td>Declined
+                            <td>Prepared
                             </td>
                         </tr>
                         <tr class="warning">
-                            <td>3
+                            <td>Science Department
                             </td>
-                            <td>TB - Monthly
-                            </td>
-                            <td>03/04/2012
+                            <td>Management School (11.00am)
                             </td>
                             <td>Pending
                             </td>
                         </tr>
                         <tr class="danger">
-                            <td>4
+                            <td>Registrar Department
                             </td>
-                            <td>TB - Monthly
+                            <td>Stationary Store - Admin Bld (9.30am)
                             </td>
-                            <td>04/04/2012
-                            </td>
-                            <td>Call in to confirm
+                            <td>Pending
                             </td>
                         </tr>
                     </tbody>
