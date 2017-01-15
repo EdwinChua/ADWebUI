@@ -11,7 +11,7 @@
             <div class="col-md-3">
                 <h3>Disbursement List at</h3>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
 
                 <h3>
                     <label for="date">16  Jan  2017</label>
@@ -41,7 +41,7 @@
         <br />
         <br />
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <form id="form1" runat="server">
                     <div class="well">
                         <table class="table">
@@ -51,9 +51,7 @@
                                     </th>
                                     <th>Stationery Description
                                     </th>
-                                    <th>Received Quantity 
-                                    </th>
-                                    <th>Remark
+                                    <th>Disbursement Quantity 
                                     </th>
                                 </tr>
                             </thead>
@@ -65,11 +63,6 @@
                                     </td>
                                     <td>5
                                     </td>
-                                    <td>
-
-                                        <input type="text" name="remark" id="remark1" value="1 found faulty" />
-
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>P038
@@ -78,8 +71,6 @@
                                     </td>
                                     <td>3
                                     </td>
-                                    <td>
-                                        <asp:TextBox ID="remark2" runat="server" /></td>
                                 </tr>
                                 <tr>
                                     <td>F021
@@ -88,8 +79,6 @@
                                     </td>
                                     <td>7
                                     </td>
-                                    <td>
-                                        <asp:TextBox ID="remark3" runat="server" /></td>
 
                                 </tr>
                                 <tr>
@@ -99,8 +88,6 @@
                                     </td>
                                     <td>6
                                     </td>
-                                    <td>
-                                        <asp:TextBox ID="remark4" Text="delivered wrongly" runat="server" /></td>
 
                                 </tr>
                             </tbody>
@@ -108,12 +95,12 @@
                     </div>
                 </form>
                 <div class="row">
-                    <div class="col-md-4">
-                        <h3>Representative Name:</h3>
+                    <div class="col-md-2">
+                        <h3>Clerk ID:</h3>
                     </div>
                     <div class="col-md-3">
                         <h3>
-                            <label for="repName">Mr John Lau</label>
+                            <label for="clerName">Clerk 1</label>
                         </h3>
                     </div>
                 </div>
