@@ -20,7 +20,7 @@
             <select id="collection" name="collection"
                 class="selectpicker show-tick form-control" 
                 data-live-search="true" >
-                <option>Management Schoolg</option>
+                <option>Management School</option>
                 <option>Medical School</option>
                 <option>Engineering School</option>
                 <option>Science School</option>
